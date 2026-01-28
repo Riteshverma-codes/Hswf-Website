@@ -1,7 +1,11 @@
 import PageBanner from '../Components/PageBanner'
 import EventsList from '../Components/EventsList'
-function UpcomingEvents() {
-  const upcomingEvents = [
+
+
+import React from 'react'
+
+export default function UpcomingEvents() {
+      const upcomingEvents = [
     {
       id: '1',
       title: 'National Sports Championship 2024',
@@ -33,4 +37,3 @@ function UpcomingEvents() {
     </div>
   )
 }
-export default UpcomingEvents
