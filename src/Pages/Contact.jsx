@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import PageBanner from '../components/PageBanner'
+import PageBanner from '../components/PageBanne'
 function Contact() {
   const [formData, setFormData] = useState({
     fullName: '',
