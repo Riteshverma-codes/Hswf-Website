@@ -15,7 +15,7 @@ import Programs from './Pages/Programs';
 import Player from './Pages/Player';
 import Volunteer from './Pages/Volunteer';
 import Events from './Pages/Events';
-import UpcomingEvents from './Pages/UpcomingEvents';
+import UpcomingEvents from './Pages/UpcomingEvents.jsx';
 import PastEvents from './Pages/PastEvents';
 import Council from './Pages/Council';
 import Academy from './Pages/Academy';
