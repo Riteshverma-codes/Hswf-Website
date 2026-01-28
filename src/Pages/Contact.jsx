@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import PageBanner from '../components/PageBanne'
+import PageBanner from '../Components/PageBanner';
+
 function Contact() {
   const [formData, setFormData] = useState({
     fullName: '',
@@ -33,7 +34,7 @@ function Contact() {
   };
   return (
     <div>
-      <PageBanner 
+      <PageBanner
         title="Contact" 
         description="Get in touch with us for any inquiries or support"
       />
