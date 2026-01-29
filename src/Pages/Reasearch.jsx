@@ -1,5 +1,6 @@
+import PageBanner from '../Components/PageBanner'
 import ResearchLearning from '../Components/ResearchLearning'
-import PageBanner from '../components/PageBanner'
+
 function Reasearch() {
   return (
     <div>

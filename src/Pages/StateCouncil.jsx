@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'
 import PageBanner from '../Components/PageBanner'
+
 function StateCouncil() {
   const { stateId } = useParams()
   const stateCouncils = {
@@ -62,7 +63,7 @@ function StateCouncil() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <PageBanner 
+      <PageBanner
         title={`${stateData?.name} Sports Councils`}
         description={`Discover sports councils and their initiatives in ${stateData?.name}`}
         bgImage="/assets/images/page-banners/events-banner.jpg"

@@ -1,8 +1,9 @@
-import PageBanner from '../Components/PageBanner'
+import PageBanner from "../Components/PageBanner"
+
 function RefundPolicy() {
   return (
     <div className="min-h-screen">
-      <PageBanner 
+      <PageBanner
         title="Refund Policy" 
         description="Understanding our refund and cancellation procedures"
         bgImage="/assets/images/page-banners/events-banner.jpg"

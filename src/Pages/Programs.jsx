@@ -1,9 +1,10 @@
 import Endurance from '../Components/Endurance'
-import PageBanner from '../components/PageBanner'
+import PageBanner from '../Components/PageBanner'
+
 function Programs() {
   return (
     <div>
-        <PageBanner 
+        <PageBanner
             title="Endurance Network" 
             description="Connect and grow with our extensive network of partners and professionals" 
         />
