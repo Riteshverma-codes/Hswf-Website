@@ -1,4 +1,5 @@
-import PageBanner from "../components/PageBanner";
+import PageBanner from "../Components/PageBanner"
+
 function Player() {
   return (
     <div>
